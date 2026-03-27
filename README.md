@@ -37,4 +37,5 @@ You can upload a new CSV from the UI and it will replace that file.
   - Green border = Applied
   - Rose border + faded + strikethrough title = Rejected
 - Search + status/company/location + salary filters.
+- 📅 Date Found range picker to filter jobs by discovery date.
 - CSV upload and persistent status updates.
