@@ -1,6 +1,6 @@
 # JobyJobDash
 
-This repository now includes a **Streamlit-friendly app** so the job dashboard can run without Next.js.
+This repository includes a **Streamlit-friendly app** so the job dashboard can run without Next.js.
 
 ## Run with Streamlit
 
@@ -28,9 +28,13 @@ You can upload a new CSV from the UI and it will replace that file.
 
 ## Included features
 
-- CSV upload
-- Search by title/company/location/description
-- Filters for status/company/location
-- Salary-range filter
-- KPI cards (total, applied, interviewing, offers, visible)
-- Editable table with **Save status updates**
+- `📄 Has Documents` toggle button in Filters (shows only jobs with resume and/or cover letter attached).
+- `👍 Mark Applied` per-job action (marks `applied`, opens job URL in new tab, and triggers a celebration).
+- `👎 Reject` per-job action (marks `rejected` and shows motivational toast).
+- Five colorful stats cards: Total Jobs, Ready to Apply, Applied, Rejected, With Docs.
+- Visual border indicators on each job card:
+  - Cyan border = NEW
+  - Green border = Applied
+  - Rose border + faded + strikethrough title = Rejected
+- Search + status/company/location + salary filters.
+- CSV upload and persistent status updates.
